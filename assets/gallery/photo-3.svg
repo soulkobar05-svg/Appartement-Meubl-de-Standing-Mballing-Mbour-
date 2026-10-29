@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <rect width="900" height="700" fill="#f5f1f1"/>
+  <rect x="85" y="90" width="730" height="520" rx="24" fill="#e6e0e0"/>
+  <rect x="170" y="180" width="260" height="260" rx="18" fill="#f6f0f0"/>
+  <rect x="470" y="180" width="220" height="260" rx="18" fill="#d4d0d0"/>
+  <text x="450" y="392" text-anchor="middle" font-size="40" font-family="Arial" fill="#12365a" font-weight="700">PHOTO 3</text>
+  <text x="450" y="437" text-anchor="middle" font-size="22" font-family="Arial" fill="#526981">Remplacez par votre vraie photo</text>
+</svg>

@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Appartement Mballing Mbour</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f3f7ff, #eefaf3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #1f2937;
+        }
+        .container {
+            background: #ffffff;
+            border-radius: 18px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+            padding: 40px 30px;
+            width: min(90%, 520px);
+            text-align: center;
+        }
+        h1 {
+            color: #163b67;
+            font-size: clamp(1.8rem, 3vw, 2.5rem);
+            margin-bottom: 12px;
+        }
+        .price {
+            font-size: 1.2rem;
+            margin: 20px 0 30px;
+            color: #2b3d59;
+        }
+        .whatsapp-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 16px 28px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 1.05rem;
+            box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(37, 211, 102, 0.35);
+        }
+        .whatsapp-icon {
+            font-size: 1.4rem;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align: center; padding: 50px; background: #f4f4f4;">
-    <h1 style="color: #1a365d;">Appartement Meublé de Standing - Mballing</h1>
-    <p>Tarif : 65 000 FCFA / nuit</p>
-    <a href="https://wa.me/221775351143?text=Bonjour%2C%20je%20souhaite%20réserver%20l%27appartement." style="background: #25D366; color: white; padding: 15px 25px; text-decoration: none; font-weight: bold; border-radius: 5px;">Envoyer un message</a>
+<body>
+    <div class="container">
+        <h1>Appartement Meublé de Standing - Mballing</h1>
+        <div class="price">Tarif : 65 000 FCFA / nuit</div>
+        <a href="https://wa.me/221775351143?text=Bonjour%2C%20je%20souhaite%20réserver%20l%27appartement." class="whatsapp-btn">
+            <span class="whatsapp-icon">✆</span>
+            <span>Envoyer un message</span>
+        </a>
+    </div>
 </body>
 </html>
